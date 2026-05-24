@@ -1,0 +1,249 @@
+@charset"utf-8";
+@font-face{
+	font-family: "CALIBRI REGULAR";
+	src: url("../font/calibri.ttf") format("truetype") ;	
+}
+@font-face{
+	font-family: "CALIBRI BOLD";
+	src: url("../font/calibrib.ttf") format("truetype");
+}
+@font-face{
+	font-family: 'MYRAID SEMI BOLD';
+	src: url("../font/MyriadPro-Semibold.otf") format("opentype");
+}
+@font-face{
+	font-family: 'EBRIMA';
+	src: url("../font/ebrima.ttf") format("truetype");
+}
+body{
+	width: 100%;
+	margin: 0px;
+}
+.pc{
+	display: block;
+}
+.sp{
+	display: none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+p{
+	margin: 0px;
+}
+ul{
+	margin: 0px;
+}
+ul li{
+	list-style: none;
+}
+figure{
+	margin: 0px;
+}
+img{
+	width: 100%;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+main{
+	width: 100%;
+    background: url(../img/bgCU.png)no-repeat;
+    background-size: 100%;
+}
+main .maincontent{
+	width: 100%;
+	overflow: hidden;
+}
+main .mcontent{
+	width: 100%;
+}
+.mcontent .mblogx{
+	width: 50%;
+	float: left;
+}
+.mcontent .mblogy{
+	width: 50%;
+	float: right;
+}
+.mblogx .mimg{
+	width: 19%;
+    margin-left: -17%;
+    margin-top: 8%;
+}
+.mblogx h1{
+	font-size: 3.3vw;
+    font-family: "CALIBRI BOLD";
+    margin-top: 5%;
+}
+.mblogx .blank{
+	width: 100%;
+    margin-top: 5%;
+}
+.blank .textinput{
+	font-size: 1.4vw;
+    margin-bottom: 3%;
+    padding: 1% 27% 1% 1%;
+    font-family: "CALIBRI REGULAR";
+}
+.blank .mtext{
+	width: 90%;
+    font-size: 1.4vw;
+    padding: 1% 1% 9% 1%;
+    font-family: "CALIBRI REGULAR";
+}
+.sent{
+    margin-top: 7%;
+    margin-left: 37%;
+    padding-bottom: 7%;
+}
+.mblogx .sent a{
+	font-size: 1.9vw;
+    background-color: #455B96;
+    color: #FFFFFF;
+    padding: 2% 5% 2% 5%;
+    border-radius: 7px;
+    font-family: "CALIBRI BOLD";
+}
+.mblogy p{
+	font-size: 1.1vw;
+    background-color: #B5561D;
+    color: #FFFFFF;
+    padding: 7%;
+    width: 37%;
+    border-radius: 8px;
+    margin-top: 20%;
+    margin-left: 38%;
+    text-align: justify;
+    font-family: "CALIBRI BOLD";
+}
+footer{
+	width: 100%;
+}
+footer .footercontent{
+	width: 100%;
+    overflow: hidden;
+    padding-bottom: 1%;
+    background-color: #F5F5F5;
+}
+.footercontent .ftcontent{
+	width: 100%;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+.ftcontent .ftblog{
+	width: 25%;
+    float: left;
+}
+.ftcontent .ftblog .ftimg{
+	width: 37%;
+    margin-top: 15%;
+}
+.ftblog p{
+	font-size: 0.95vw;
+    color: #000000;
+    font-family: 'MYRAID SEMI BOLD';
+    width: 60%;
+    text-align: justify;
+    margin-top: 9%;
+    line-height: 102%;
+}
+.ftcontent .ftblogx{
+	width: 25%;
+	float: left;
+}
+.ftblogx h1{
+	font-size: 1.1vw;
+    font-family: 'MYRAID SEMI BOLD';
+    margin-top: 35%;
+    margin-left: 26%;
+    margin-bottom: 5%;
+}
+.ftblogx ul{
+	width: 100%;
+    padding-left: 0%;
+    margin-top: 2%;
+    margin-left: 26%;
+}
+.ftblogx ul li{
+	margin-bottom: 1%;
+}
+.ftblogx ul li a{
+	font-size: 0.95vw;
+    color: #000000;
+    font-family: 'MYRAID SEMI BOLD';
+}
+.ftcontent .ftblogy{
+	width: 25%;
+	float: left;
+}
+.ftblogy h1{
+	font-size: 1.1vw;
+    font-family: 'MYRAID SEMI BOLD';
+    margin-top: 35%;
+    margin-left: 26%;
+    margin-bottom: 5%;
+}
+.ftblogy ul{
+	width: 100%;
+    padding-left: 0%;
+    margin-top: 2%;
+    margin-left: 26%;
+}
+.ftblogy ul li{
+	margin-bottom: 1%;
+}
+.ftblogy ul li a{
+	font-size: 0.95vw;
+    color: #000000;
+    font-family: 'MYRAID SEMI BOLD';
+}
+.ftcontent .ftblogz{
+	width: 25%;
+	float: left;
+}
+.ftblogz h1{
+	font-size: 1.1vw;
+    font-family: 'MYRAID SEMI BOLD';
+    margin-top: 35%;
+    margin-left: 26%;
+    margin-bottom: 5%;
+}
+.ftblogz ul{
+	width: 100%;
+    padding-left: 0%;
+    margin-top: 2%;
+}
+.ftblogz ul li{
+	margin-bottom: 1%;
+}
+.ftblogz ul li a{
+	font-size: 0.95vw;
+    color: #000000;
+    font-family: 'MYRAID SEMI BOLD';
+    margin-left: 26%;
+}
+.ftblogz .link{
+	width: 100%;
+    margin-top: 2%;
+    margin-left: 26%;
+}
+.ftblogz .link .limg{
+	width: 9%;
+    float: left;
+    margin-right: 3%;
+}
+.copyright{
+	width: 100%;
+    overflow: hidden;
+}
+.copyright p{
+	font-size: 0.97vw;
+    color: #000000;
+    font-family: 'EBRIMA';
+    text-align: center;
+}
